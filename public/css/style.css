@@ -6,17 +6,37 @@
  * Made By MaterializeCSS.com
  */
 
+.max-e-red
+{
+    color: #800000 !important
+}
+
+.max-e-grey
+{
+    color: #333333 !important
+}
+
+.max-e-bg
+{
+      background-color: #333333 !important
+}
+
 nav ul a,
 nav .brand-logo {
   color: #444;
 }
 
+a
+{
+    color: #800000
+}
+
 p {
-  line-height: 2rem;
+  line-height: 2rem
 }
 
 .button-collapse {
-  color: #f44336;
+  color: #800000;
 }
 
 .parallax-container {
@@ -54,4 +74,20 @@ p {
 
 footer.page-footer {
   margin: 0;
+}
+
+.card-title
+{
+      font-size: 48px !important;
+  color: #000000 !important;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating)
+{
+  color: #800000 !important
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating):hover
+{
+  color: #800000 !important
 }
