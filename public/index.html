@@ -22,6 +22,7 @@
 
 </head>
 <body>
+  <div class="navbar-fixed">
   <nav class="grey darken-4" role="navigation">
     <div class="nav-wrapper container">
       <a id="logo-container" href="#" class="brand-logo red-text darken-4"><img src="images/LogoWhiteScreen.png" alt="Logo" /></a>
@@ -30,7 +31,7 @@
         <li><a href="ourproducts.html">Our Products</a></li>
         <li><a href="index.html">Our Fabric Range</a></li>
         <li><a href="index.html">Gallery</a></li>
-        <li><a href="index.html">Contact Us</a></li>
+        <li><a href="contactus.html">Contact Us</a></li>
       </ul>
 
       <ul id="nav-mobile" class="side-nav">
@@ -49,6 +50,7 @@
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
   </nav>
+  </div>
 
   <div id="index-banner" class="parallax-container">
     <div class="section no-pad-bot">
@@ -58,11 +60,6 @@
         <div class="row center">
           <h5 class="header col s12 black-text">WE PROVIDE QUALITY BLINDS AND SHUTTERS AT REASONABLE PRICES</h5>
         </div>
-        <div class="row center">
-          <a href="contactus.html" id="download-button" class="btn-large waves-effect waves-light red darken-4"><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Call us now</a>
-        </div>
-        <br><br>
-
       </div>
     </div>
     <div class="parallax"><img src="images/DSC_6129.NEF.jpg" alt="Unsplashed background img 1" width="800"></div>
@@ -106,41 +103,55 @@
   </div>
 
 
-  <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <h5 class="header col s12 black-text">Find us on social media</h5>
+<!-- Slider -->
+  <div class="slider">
+    <ul id="slider" class="slides">
+      <li>
+        <img src="http://lorempixel.com/580/250/nature/1"> <!-- random image -->
+        <div class="caption center-align">
+          <h3>Friendly, reliable, honest in advice on products and very easy to deal with. 100% recommended!</h3>
+          <h5 class="light grey-text text-lighten-3">Lisa Z. from Eastlakes, NSW</h5>
         </div>
-      </div>
-    </div>
-    <div class="parallax"><img src="images/DSC_6101.png" alt="Unsplashed background img 3" width="800"></div>
+      </li>
+      <li>
+        <img src="http://lorempixel.com/580/250/nature/2"> <!-- random image -->
+        <div class="caption left-align">
+          <h3>Personable, professional and communicative. Extremely competitive.</h3>
+          <h5 class="light grey-text text-lighten-3">Gennaro from East Hills, NSW</h5>
+        </div>
+      </li>
+      <li>
+        <img src="http://lorempixel.com/580/250/nature/3"> <!-- random image -->
+        <div class="caption right-align">
+          <h3>I would highly recommend him for personalised service.</h3>
+          <h5 class="light grey-text text-lighten-3">Naomi C. from Queanbeyan</h5>
+        </div>
+      </li>
+      <li>
+        <img src="http://lorempixel.com/580/250/nature/4"> <!-- random image -->
+        <div class="caption center-align">
+          <h3>Friendly, polite and professional. They even went after office hours and I was really happy with the installation. I would definitely recommend them.</h3>
+          <h5 class="light grey-text text-lighten-3">Nga D. from Padstow, NSW</h5>
+        </div>
+      </li>
+    </ul>
   </div>
+<!-- Slider -->
+
+      <div class="container">
+        <br><br>
+        <div class="row center">
+          <h5 class="header col s12 black-text">Call us today for a <span class="max-e-red">free</span> measure and quote.</h5>
+        </div>
+        <div class="row center">
+          <a href="contactus.html" id="download-button" class="btn-large waves-effect waves-light red darken-4"><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Call us now</a>
+        </div>
+        <br><br>
+      </div>
 
   <footer class="page-footer grey darken-4">
-    <div class="container">
-      <div class="row">
-        <div class="col s4 m4">
-          <div class="icon-block">
-            <h2 class="center"><a href="https://www.facebook.com/maxecanberra/"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a></h2>
-          </div>
-        </div>
-
-        <div class="col s4 m4">
-          <div class="icon-block">
-            <h2 class="center"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></h2>
-          </div>
-        </div>
-
-        <div class="col s4 m4">
-          <div class="icon-block">
-            <h2 class="center"><a href="https://www.google.com.au/maps/place/Max-E+Blinds+and+Shutters/@-35.377528,148.6563354,9z/data=!3m1!4b1!4m5!3m4!1s0x6b164949bb560dfb:0x676db7f6c4325dce!8m2!3d-35.379006!4d149.216903?rapsrc=lu_categorical_full_list&hl=en"><i class="fa fa-map-marker fa-2x" aria-hidden="true"></i></a></h2>
-          </div>
-        </div>
-      </div>
-    </div>
     <div class="footer-copyright">
-      <div class="container">
+      <div class="container" align="right">
       Copyright max-<em class="max-e-red">E</em> Blinds and Shutters
       </div>
     </div>
@@ -152,5 +163,10 @@
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
 
+<script type="text/javascript">
+ $(document).ready(function(){
+      $('.slider').slider();
+    });
+</script>
   </body>
 </html>
