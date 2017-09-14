@@ -1,0 +1,35 @@
+<!-- Slider -->
+  <div class="slider">
+    <ul id="slider" class="slides">
+      <li>
+        <img src="images/DSC_6023.png" alt="Background image"> <!-- random image -->
+        <div class="caption center-align">
+          <h3 class="max-e-red">Friendly, reliable, honest in advice on products and very easy to deal with. 100% recommended!</h3>
+          <h5 class="light max-e-red">Lisa Z. from Eastlakes, NSW</h5>
+        </div>
+      </li>
+      <li>
+        <img src="images/DSC_6089.NEF.jpg" alt="Background image"> <!-- random image -->
+        <div class="caption right-align">
+          <h3 class="max-e-red">Personable, professional and communicative.<br />Extremely competitive.</h3>
+          <h5 class="light max-e-red">Gennaro from East Hills, NSW</h5>
+        </div>
+      </li>
+      <li>
+        <img src="images/DSC_6294.png" alt="Background image"> <!-- random image -->
+        <div class="caption left-align">
+          <h3>I would highly recommend him for<br />personalised service.</h3>
+          <h5 class="light grey-text text-lighten-3">Naomi C. from Queanbeyan</h5>
+        </div>
+      </li>
+      <li>
+        <img src="images/DSC_6027.NEF.jpg" alt="Background image"> <!-- random image -->
+        <div class="caption center-align">
+          <h3>Friendly, polite and professional. They even went after office hours and I was really happy with the installation. I would definitely recommend them.</h3>
+          <h5 class="light grey-text text-lighten-3">Nga D. from Padstow, NSW</h5>
+        </div>
+      </li>
+    </ul>
+  </div>
+<!-- Slider -->
+
