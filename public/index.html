@@ -107,31 +107,98 @@
   <div class="slider">
     <ul id="slider" class="slides">
       <li>
-        <img src="images/DSC_6146.NEF.jpg"> <!-- random image -->
-        <div class="caption center-align">
-          <h3>Friendly, reliable, honest in advice on products and very easy to deal with. 100% recommended!</h3>
-          <h5 class="light grey-text text-lighten-3">Lisa Z. from Eastlakes, NSW</h5>
-        </div>
-      </li>
-      <li>
-        <img src="http://lorempixel.com/580/250/nature/2"> <!-- random image -->
-        <div class="caption left-align">
-          <h3>Personable, professional and communicative. Extremely competitive.</h3>
-          <h5 class="light grey-text text-lighten-3">Gennaro from East Hills, NSW</h5>
-        </div>
-      </li>
-      <li>
-        <img src="http://lorempixel.com/580/250/nature/3"> <!-- random image -->
+        <img src="images/DSC_6023.png" alt="Background image"> <!-- random image -->
         <div class="caption right-align">
-          <h3>I would highly recommend him for personalised service.</h3>
-          <h5 class="light grey-text text-lighten-3">Naomi C. from Queanbeyan</h5>
+          <div class="row">
+            <div class="col s12 m6">
+              <div class="card grey darken-4">
+                <div class="card-content white-text">
+                  <span class="card-title">Roller blinds</span>
+                  <p>Modern and clean.  Roller blinds can suit any style of home décor. With both light filtering as well as blockout fabrics, their versatility is unparalleled.</p>
+                </div>
+                <div class="card-action">
+                  <a href="#">More info...</a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </li>
       <li>
-        <img src="http://lorempixel.com/580/250/nature/4"> <!-- random image -->
-        <div class="caption center-align">
-          <h3>Friendly, polite and professional. They even went after office hours and I was really happy with the installation. I would definitely recommend them.</h3>
-          <h5 class="light grey-text text-lighten-3">Nga D. from Padstow, NSW</h5>
+        <img src="images/DSC_6089.NEF.jpg" alt="Background image"> <!-- random image -->
+        <div class="caption right-align">
+          <div class="row">
+            <div class="col s12 m6">
+              <div class="card grey darken-4">
+                <div class="card-content white-text">
+                  <span class="card-title">Plantation Shutters</span>
+                  <p>No other window coverings add style and class like plantation shutters.  Plantation shutters can fit in features that others can't, whether it's an odd-shaped window, bay or box windows, or sliding doors.  Their unique ability to be hinged, bi-fold or sliding gives them flexibility to suit any home.</p>
+                </div>
+                <div class="card-action">
+                  <a href="#">More info...</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li>
+        <img src="images/DSC_6294.png" alt="Background image"> <!-- random image -->
+        <div class="caption right-align">
+          <div class="row">
+            <div class="col s12 m6">
+              <div class="card grey darken-4">
+                <div class="card-content white-text">
+                  <span class="card-title">Roman blinds</span>
+                  <p>Good looking down or up, roman blinds are perfect for hiding windows or other openings.
+                    They provide a softer and cosier look than other window fitments without taking up room like curtains do.</p>
+                </div>
+                <div class="card-action">
+                  <a href="#">More info...</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </li>
+      <li>
+        <img src="images/DSC_0359.JPG" alt="Background image"> <!-- random image -->
+        <div class="caption right-align">
+          <div class="row">
+            <div class="col s12 m6">
+              <div class="card grey darken-4">
+                <div class="card-content white-text">
+                  <span class="card-title">Honeycell blinds</span>
+                  <p>Insulating without blocking out light.  The unique air pockets in the honeycell blinds are the equivalent of double glazed windows.
+                    Stylish and clean, these blinds are available in a range of colours in both light filtering and blockout fabrics.  They will suit any contemporary home.</p>
+                </div>
+                <div class="card-action">
+                  <a href="#">More info...</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li>
+        <img src="images/DSC_6282.png" alt="Background image"> <!-- random image -->
+        <div class="caption right-align">
+          <div class="row">
+            <div class="col s12 m6">
+              <div class="card grey darken-4">
+                <div class="card-content white-text">
+                  <span class="card-title">Vertical blinds</span>
+                  <p>Affordable, practical and strong.  Vertical blinds can be used for both windows and doors due to their horizontal movement.
+                    Unlike most other blind types, verticals are suitable for wet areas such as kitchens and bathrooms.  They come in a range of blockout fabric types as well as insulating PVC.</p>
+                </div>
+                <div class="card-action">
+                  <a href="#">More info...</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
       </li>
     </ul>
@@ -165,8 +232,17 @@
 
 <script type="text/javascript">
  $(document).ready(function(){
-      $('.slider').slider();
-    });
+  $('.slider').slider({
+height: 600,
+    interval:5000,
+    transition:800,
+  });
+});
+$('.button-collapse').sideNav({
+      closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
+      draggable: true, // Choose whether you can drag to open on touch screens,
+    }
+  );
 </script>
   </body>
 </html>
