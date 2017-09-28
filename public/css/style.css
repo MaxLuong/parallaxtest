@@ -79,6 +79,12 @@ footer.page-footer {
 .card-title
 {
   font-size: 48px !important;
+  color: #FFFFFF
+}
+
+.contact-card-title
+{
+  font-size: 48px !important;
   color: #000000 !important;
 }
 
