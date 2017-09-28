@@ -79,7 +79,7 @@ footer.page-footer {
 .card-title
 {
   font-size: 48px !important;
-  color: #FFFFFF !important;
+  color: #000000 !important;
 }
 
 .card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating)
