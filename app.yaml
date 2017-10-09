@@ -8,10 +8,23 @@ handlers:
   static_files: public/\1
   upload: public/(.*)
 
-- url: /stylesheets
-  static_dir: stylesheets
+ url: /
+  static_files: public/index.html
+  upload: public/index.html
 
-- url: /(.*\.(html|css|js|gif|png|jpg|eot|ttf|woff|woff2))$
+ url: /css
+  static_dir: css
+
+ url: /fonts
+  static_dir: fonts
+
+ url: /images
+  static_dir: images
+
+ url: /js
+  static_dir: js
+
+ url: /(.*\.(html|css|js|gif|png|jpg|eot|ttf|woff|woff2))$
   static_files: static/\1
   upload: static/.*\.(html|css|js|gif|png|jpg|eot|ttf|woff|woff2)$
 
