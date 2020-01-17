@@ -16,3 +16,6 @@ gcloud app deploy app.yaml
 == Git from Codenvy ==
 Occasionally have to go to Profile -> Preferences -> VCS -> SSH
 and hit the cat icon
+
+==Github==
+parallaxtest
