@@ -2,16 +2,15 @@ cd ~/website
 
 == Initial setup ==
 git init
-git pull https://github.com/MaxLuong/parallaxtest master
 
 == Commit ==
-git add *
+git commit -a
 
 ==Update==
-git pull
+git pull https://github.com/MaxLuong/parallaxtest master
 
 ==Commit==
-git commit -a
+git remote add origin https://github.com/MaxLuong/parallaxtest
 git push origin master
 
 ==Deploy==
