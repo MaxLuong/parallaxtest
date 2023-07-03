@@ -1,5 +1,10 @@
 cd ~/website
 
+== Initial setup ==
+git init
+git pull https://github.com/MaxLuong/parallaxtest master
+
+== Commit ==
 git add *
 
 ==Update==
