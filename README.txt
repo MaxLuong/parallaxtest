@@ -24,3 +24,5 @@ and hit the cat icon
 
 ==Github==
 parallaxtest
+
+gh auth login
